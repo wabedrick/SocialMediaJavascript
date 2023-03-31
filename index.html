@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+    <!----------- Header or the nav bar----------->
+       <nav>
+          <div class="container">
+          <h2 class="log">nocoSocial</h2>
+
+          <div class="search-bar">
+          <i class="uil uil-search"></i>
+          <input type="search" placeholder="Search for creaters, inspirations and Projects" name="search">
+          
+          </div>
+          <div class="create">
+          <label class="btn btn-primary" for="create-post">Create</label>
+          <div class="profile-photo">
+          <img src="./images/profile-1.jpg" alt="My Profile Phone">
+          </div>
+    
+          </div>
+          </div>
+       </nav>
+        
+        <!----------- MAIN ----------->
+        <main>
+        <div class="container">
+        <!----------- Left ----------->
+        <div class="left">
+        <a class="profile">
+        <div class="profile-photo">
+        <img src="./images/profile-1.jpg">
+        </div>
+        <div class="handle">
+        <h4>Maria Rosa</h4>
+        <p class="text-muted">
+        @Maria
+        </p>
+        </div>
+        </a>
+        <!----------- SIDEBAR ----------->
+        <div class="sidebar">
+        <a class="menu-item active">
+        <span><i class="uil uil-home"></i></span><h3>Home</h3>
+        </a>
+        <a class="menu-item">
+        <span><i class="uil uil-compass"></i></span><h3>Explore</h3>
+        </a>
+        <a class="menu-item" id="notifications">
+        <span><i class="uil uil-bell"><small class="notification-count">9+</small></i></span><h3>Notifications</h3>
+        <!---------- NOTIFICATION POPUP ---------->
+        <div class="notification-popup">
+
+           <div>
+            <div class="profile-photo">
+               <img src="./images/profile-2.jpg">
+            </div>
+            <div class="notification-body">
+              <b>Daaki Benjamine</b> Accepted you friendly request
+              <small class="text-muted">2 hours Ago</small>
+            </div>
+           </div>
+
+           <div>
+            <div class="profile-photo">
+               <img src="./images/profile-3.jpg">
+            </div>
+            <div class="notification-body">
+              <b>Mujjabi Blair</b> Commented on your photo
+              <small class="text-muted">2 minutes Ago</small>
+            </div>
+           </div>
+           
+           <div>
+            <div class="profile-photo">
+               <img src="./images/profile-4.jpg">
+            </div>
+            <div class="notification-body">
+              <b>Kasabbuni Felix</b> Sent you a friendly Request
+              <small class="text-muted">2 Days Ago</small>
+            </div>
+           </div>
+
+           <div>
+            <div class="profile-photo">
+               <img src="./images/profile-5.jpg">
+            </div>
+            <div class="notification-body">
+              <b>Kafumisi Kaye</b> You have a new friendly Suggestion
+              <small class="text-muted">3 months Ago</small>
+            </div>
+           </div>
+           
+        </div>
+        </a>
+        <a class="menu-item" id="messages-notification">
+        <span><i class="uil uil-envelope-alt" id="messages-notifications">
+        <small class="notification-count">6</small></i></span><h3>Messages</h3>
+        </a>
+        <a class="menu-item">
+        <span><i class="uil uil-bookmark"></i></span><h3>Bookmarks</h3>
+        </a>
+        <a class="menu-item">
+        <span><i class="uil uil-chart-line"></i></span><h3>Analytics</h3>
+        </a>
+        <a class="menu-item">
+        <span><i class="uil uil-palette"></i></span><h3>Theme</h3>
+        </a>
+        <a class="menu-item">
+        <span><i class="uil uil-setting"></i></span><h3>Settings</h3>
+        </a>
+        </div>
+
+        <!----------- END OF SLIDEBAR-------->
+        <label for="create-post" class="btn btn-primary">Create Post</label>
+        </div>
+
+        <!----------- middle div ----------->
+        <div class="middle">
+
+           <div class="stories">
+
+            <div class="story">
+              <div class="profile-photo">
+                 <img src="./images/profile-7.jpg">
+              </div>
+              <p class="name">Your Story</p>
+            </div>
+
+            <div class="story">
+              <div class="profile-photo">
+                 <img src="./images/profile-8.jpg">
+              </div>
+              <p class="name">John's Story</p>
+            </div>
+
+           <div class="story">
+              <div class="profile-photo">
+                 <img src="./images/profile-9.jpg">
+              </div>
+              <p class="name">James' Story</p>
+            </div>
+
+           <div class="story">
+              <div class="profile-photo">
+                 <img src="./images/profile-10.jpg">
+              </div>
+              <p class="name">Anitah's Story</p>
+            </div>
+
+            <div class="story">
+              <div class="profile-photo">
+                 <img src="./images/profile-11.jpg">
+              </div>
+              <p class="name">Grace's Story</p>
+            </div>
+
+            <div class="story">
+              <div class="profile-photo">
+                 <img src="./images/profile-12.jpg">
+              </div>
+              <p class="name">Jane's Story</p>
+            </div>
+          </div>
+        
+
+        <form class="create-post">
+           <div class="profile-photo">
+             <img src="./images/profile-1.jpg">
+           </div>
+           <input type="text" placeholder="What is on your mind.." id="create-post">
+           <input type="submit" value="Post" class="btn btn-primary">
+        
+        </form>
+
+        <!------------------- FEEDS -------------------->
+        <div class="feeds">
+          <div class="feed">
+            <div class="head">
+              <div class="user">
+                <div class="profile-photo">
+                  <img src="./images/profile-13.jpg">
+                </div>
+                 <div class="info">
+                   <h3>Nakimuli Angel</h3>
+                   <small>Kampala, 3 Minutes Ago</small>
+                 </div>
+                 <span class="edit">
+                   <i class="uil uil-ellipsis-h"></i>
+                 </span>
+              </div>
+            </div>
+           
+           <div class="photo">
+              <img src="./images/feed-1.jpg">
+            </div>
+
+            <div class="action-button">
+              <div class="interaction-buttons">
+                <span><i class="uil uil-heart"></i></span>
+                <span><i class="uil uil-comment"></i></span>
+                <span><i class="uil uil-share-alt"></i></span>
+              </div>
+
+              <div class="bookmark">
+                 <span><i class="uil uil-bookmark"></i></span>
+              </div>
+
+              </div>
+
+              <div class="liked-by">
+                 <span><img src="./images/profile-14.jpg"></span>
+                 <span><img src="./images/profile-15.jpg"></span>
+                 <span><img src="./images/profile-16.jpg"></span>
+                 <p>
+                 Liked by <b>Kasujja Musa </b> and <b>3,903 0thers</b>
+                 </p>
+              </div>
+
+              <div class="caption">
+                <p><b>Ndaula Jonathan</b> is feeling loved with his friends 
+                <span class="harsh-tag">#Lifestyle</span></p>
+
+                <div class="comments text-muted">View all the 5 comments about your post</div>
+              </div>
+
+        
+      </div>
+    </div>
+
+        <!----------- Right ----------->
+        <div class="right">
+
+        </div>
+        </main>
+        <script src="" async defer></script>
+    </body>
+</html>
